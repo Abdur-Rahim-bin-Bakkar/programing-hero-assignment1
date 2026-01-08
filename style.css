@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+header{
+    width: 100%;
+    height: 92px;
+    padding: 16px 120px;
+    background-color: white;
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+header nav button{
+    width: 164px;
+    height: 44px;
+    padding: 12px 16px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+.banner-section{
+    width: 100%;
+    height: 674px;
+    padding: 70px 120px 134px 120px;
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner-section .banner-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-section button:nth-child(1){
+    width: 229px;
+    height: 36px;
+    background-color: white;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+}
+.banner-section .banner-container h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 16px;
+}
+.banner-section .banner-container h1 span{
+    color: rgba(48, 184, 104, 1);
+}
+.banner-section .banner-container p{
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 32px;
+}
+.banner-section .banner-container .btns{
+    display: flex;
+    /* align-items: center; */
+    gap: 16px;
+}
+.banner-section .banner-container .btns button:nth-child(1){
+    width: 251px;
+    height: 52px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 4px;
+    background-color: #30B868;
+    color: white;
+    font-weight: 600;
+    border: none;
+
+}
+.banner-section .banner-container button:nth-child(2){
+    background-color: transparent;
+    width: 198px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+
+}
+.note-section{
+    background-color: rgb(244, 244, 244);
+    padding: 0 120px ;
+    width: 100%;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+    /* margin-top: 50px; */
+}
+.note-section h1{
+    font-size: 48px;
+    margin-top: 38px;
+}
+.note-card-container{
+    display: flex;
+    gap: 24px;
+}
+.note-card-container .card{
+    width: 322px;
+    height: 320px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0p rgba(130, 129, 129, 0.6);
+    background-color: white;
+    text-align: center;
+
+}
+.note-card-container .card figure{
+    padding: 15px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    border-radius: 50%;
+    background-color:orangered ;
+
+}
+.note-card-container .card figure img{
+    width: 32px;
+}
+.note-card-container .card h3{
+    font-size: 24px;
+    font-weight: 600;
+
+
+}
+.note-card-container p{
+    font-size: 16px;
+}
+
+.second-hero-section{
+    width: 100%;
+    height: 840px;
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+}
+.second-hero-section .text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.second-hero-section .text-box span{
+    color: #30B868;
+    font-weight: 600;
+}
+.second-hero-section .text-box h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+}
+.second-hero-section .text-box p{
+    color: #627382;
+    line-height: 20px;
+}
+.second-hero-section .text-box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+
+}
+.second-hero-section .text-box ul li{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #000000;
+    font-weight: 600;
+}
