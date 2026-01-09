@@ -338,6 +338,7 @@ footer .icons .links .link-icon i{
     /* width: 50px; */
     border-radius: 50%;
     padding: 10px 0;
+    cursor: pointer;
 }
 hr{
     border: 1px solid #E5E7EB;
