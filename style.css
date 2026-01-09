@@ -37,6 +37,14 @@ header nav button{
     outline: none;
     color: #ffffff;
     font-weight: 600;
+    cursor: pointer;
+    transition: 1s 0.1s ease;
+}
+header nav button:hover{
+    background-color: white;
+    color: #30B868;
+    border: 1px solid #30B868;
+    box-shadow: 2px 2px 20px 2px rgba(88, 84, 84, 0.386);
 }
 .banner-section{
     width: 100%;
@@ -58,12 +66,20 @@ header nav button{
     width: 229px;
     height: 36px;
     background-color: white;
+    color: #30B868;
     border-radius: 1000px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 8px 12px;
     margin-bottom: 16px;
+    cursor: pointer;
+    transition: 1s 0.1s ease;
+}
+.banner-section button:nth-child(1):hover{
+    background-color:transparent;
+    border: 1px solid #30B868;
+    color: white;
 }
 .banner-section .banner-container h1{
     font-size: 72px;
@@ -99,7 +115,17 @@ header nav button{
     color: white;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+    transition: 1s 0.1s ease;
 
+
+}
+
+.banner-section .banner-container .btns button:nth-child(1):hover{
+     background-color:yellow;
+    color: #30B868;
+    border: 1px solid #30B868;
+    box-shadow: 2px 2px 20px 2px rgba(166, 110, 110, 0.386);
 }
 .banner-section .banner-container button:nth-child(2){
     background-color: transparent;
@@ -112,7 +138,15 @@ header nav button{
     border-radius: 4px;
     color: white;
     font-weight: 600;
+    cursor: pointer;
+    transition: 1s 0.1s ease;
 
+}
+.banner-section .banner-container button:nth-child(2):hover{
+
+    color: #30B868;
+    border: 1px solid #30B868;
+    box-shadow: 2px 2px 20px 2px rgba(88, 84, 84, 0.386);
 }
 .note-section{
     background-color: rgb(244, 244, 244);
@@ -128,6 +162,10 @@ header nav button{
 .note-section h1{
     font-size: 48px;
     margin-top: 38px;
+    text-transform: capitalize;
+}
+.note-section P{
+    color: #627382;
 }
 .note-card-container{
     display: flex;
@@ -164,11 +202,12 @@ header nav button{
 .note-card-container .card h3{
     font-size: 24px;
     font-weight: 600;
-
+    text-transform: capitalize;
 
 }
 .note-card-container p{
     font-size: 16px;
+    color: #627382;
 }
 
 .second-hero-section{
@@ -188,11 +227,13 @@ header nav button{
 .second-hero-section .text-box span{
     color: #30B868;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .second-hero-section .text-box h1{
     font-size: 48px;
     font-weight: 700;
     color: #000000;
+    text-transform: capitalize;
 }
 .second-hero-section .text-box p{
     color: #627382;
@@ -248,12 +289,20 @@ header nav button{
     color: white;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+    transition: 1s 0.2s ease-out;
 }
-
+.section-container button:hover{
+    background-color: chartreuse;
+    border: 1px solid #30B868
+    color black;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px rgb(109, 100, 100);
+}
 footer{
     background-color: #001931;
     width: 100%;
-    height: 348px;
+    height: 384px;
     padding: 120px 100px 40px 120px;
 }
 footer .icons{
@@ -263,11 +312,13 @@ footer .icons{
     margin-bottom: 50px;
 
 }
+
 footer .icons .links{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 17px;
+    margin-bottom: 20px;
 
 }
 footer .icons .links h3{
@@ -290,7 +341,7 @@ footer .icons .links .link-icon i{
 }
 hr{
     border: 1px solid #E5E7EB;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 
     
 }
@@ -300,5 +351,4 @@ footer p{
     line-height: 24px;
     color: rgba(255, 255, 255, 1);
     margin:  auto;
-
 }
